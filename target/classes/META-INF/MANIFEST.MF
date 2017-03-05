@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Implementation-Title: CSC-mini-files-sharing
 Implementation-Version: 1.0-SNAPSHOT
-Built-By: training
+Built-By: VuMin
 Implementation-Vendor-Id: CSC-mini-files-sharing
 Build-Jdk: 1.8.0_121
 Created-By: Maven Integration for Eclipse
