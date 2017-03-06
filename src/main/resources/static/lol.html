@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+<link rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" />
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/other.css">
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/W3.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/main.js"></script>
+<script src="bootstrap-3.3.7-dist/js/angular.min.js"></script>
+<script src="bootstrap-3.3.7-dist/js/event.js"></script>
+</head>
+<body onload="load()" ng-controller="MainController" ng-app="wfApp"
+	style="background-image: url(webpage-background-image.jpg)">
+	<div class="row" style="text-align: center; height: 90px">
+		<span
+			style="text-align: center; font-size: 50px; color: white; font-weight: bolder;">
+			WORD FIGHTING </span>
+
+	</div>
+	<div class="row" style="text-align: center; height: 80px">
+		<span id="word" class="label label-info" style="font-size: 40px"
+			ng-click="wordClick()"> {{word}} </span>
+	</div>
+	<div class="row">
+		<div class="col-sm-1">as</div>
+		<div class="col-sm-3">
+			<div class="progress" style="width: 350px">
+				<div class="progress-bar progress-bar-success" role="progressbar"
+					style="width: 200px; float: left;">{{HP1}}</div>
+			</div>
+		</div>
+		<div class="col-sm-4" style="text-align: center">
+			<button id="btnChar1" ng-click="buttonClick('btnChar1')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar2" ng-click="buttonClick('btnChar2')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar3" ng-click="buttonClick('btnChar3')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar4" ng-click="buttonClick('btnChar4')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<p></p>
+			<button id="btnChar5" ng-click="buttonClick('btnChar5')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar6" ng-click="buttonClick('btnChar6')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar7" ng-click="buttonClick('btnChar7')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar8" ng-click="buttonClick('btnChar8')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<p></p>
+			<button id="btnChar9" ng-click="buttonClick('btnChar9')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar10" ng-click="buttonClick('btnChar10')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar11" ng-click="buttonClick('btnChar11')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar12" ng-click="buttonClick('btnChar12')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<p></p>
+			<button id="btnChar13" ng-click="buttonClick('btnChar13')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar14" ng-click="buttonClick('btnChar14')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar15" ng-click="buttonClick('btnChar15')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+			<button id="btnChar16" ng-click="buttonClick('btnChar16')"
+				class="btn-chr w3-round-large w3-xlarge w3-hover-gray"></button>
+		</div>
+		<div class="col-sm-3" style="text-align: right">
+			<div class="progress" style="width: 350px">
+				<div class="progress-bar progress-bar-success" role="progressbar"
+					style="width: 200px; float: right;">{{HP2}}</div>
+			</div>
+		</div>
+		<div class="col-sm-1" style="text-align: right">hehe</div>
+	</div>
+	<button>Get External Content</button>
+	<div id="div1"></div>
+</body>
+
+</html>
