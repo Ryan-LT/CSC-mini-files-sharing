@@ -11,4 +11,10 @@ public class FilesService {
 	@Autowired
 	FilesRepository fileRepository;
 	
+	public void deleteFile(int id){
+		fileRepository.delete(id);
+	}
+	
+	
+	
 }
