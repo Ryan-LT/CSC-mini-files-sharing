@@ -1,0 +1,23 @@
+
+
+.mfs-contain {
+	text-align: center;
+	padding-top: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.mfs-center-div {
+	margin: 0 auto;
+	width: 50%;
+	padding-top: 1%;
+}
+
+.mfs-button-search {
+	margin-top: 1%;
+}
+
+.mfs-input-search {
+	padding: 4% 2%;
+	font-size: 150%;
+}
